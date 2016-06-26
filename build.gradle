@@ -1,0 +1,32 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.2'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4'
+    }
+}
+
+repositories {
+    jcenter()
+    maven { url "https://jitpack.io" }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.s0nerik'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "24.0.0"
+    defaultConfig {
+        minSdkVersion 14
+    }
+}
+
+dependencies {
+    compile 'com.github.s0nerik:rxlist:1.0.0'
+    compile 'com.android.support:recyclerview-v7:24.0.0'
+}
