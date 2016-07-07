@@ -1,4 +1,6 @@
 # rxlist-binder
+[![](https://jitpack.io/v/s0nerik/rxlist-binder.svg)](https://jitpack.io/#s0nerik/rxlist-binder)
+
 Binds [`RxList`](https://github.com/s0nerik/rxlist) to the `RecyclerView.Adapter`.
 
 Automatically notifies the attached `RecyclerView.Adapter` about changes in an [`RxList`](https://github.com/s0nerik/rxlist). No more need to call
