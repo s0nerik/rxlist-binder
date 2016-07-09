@@ -1,5 +1,6 @@
 # rxlist-binder
 [![](https://jitpack.io/v/s0nerik/rxlist-binder.svg)](https://jitpack.io/#s0nerik/rxlist-binder)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-rxlist--binder-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/3868)
 
 Binds [`RxList`](https://github.com/s0nerik/rxlist) to the `RecyclerView.Adapter`.
 
